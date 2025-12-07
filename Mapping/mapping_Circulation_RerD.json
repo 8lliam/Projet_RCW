@@ -1,0 +1,946 @@
+{
+  "baseIRI": "http://projet-rcw.com/circulation-rer/base/",
+  "namespaces": {
+    "rcw": "http://projet-rcw.com/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "circ": "http://projet-rcw.com/resource/circulation/",
+    "gare": "http://projet-rcw.com/resource/gare/",
+    "train": "http://projet-rcw.com/resource/circulation/ligne/train/",
+    "ligne": "http://projet-rcw.com/resource/ligne/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Train"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Gare"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Ligne"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "mission"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "train",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "mission",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "departDe"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "gare",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "id_gare_depart",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "heureDepart"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "heure_depart_prevue",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "time"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nombreArrets"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nombre_arrets",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nombreArretsSupprimes"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nombre_arrets_supprimes",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "retardMax"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "retard_max_en_secondes",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "retardMoyen"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "retard_moyen_en_secondes",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "retardMedian"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "retard_median_en_secondes",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "retardParGare"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "retard_en_minutes_par_gare",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "decompteRetards"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "decompte_retards_en_minutes",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "annee"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "annee",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "gYear"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "mois"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "mois",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "gMonth"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "jour"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "jour",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "gDay"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "jourSemaine"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "jour_semaine",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "numeroSemaine"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "numero_semaine",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estSemaine"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "est_semaine",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "boolean"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estWeekend"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "est_weekend",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "boolean"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "circ",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "code_rer_D",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Circulation"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nom_gare_depart",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "fr"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "gare",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "id_gare_depart",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Gare"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "domain"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "rcw",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Train"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "range"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "rcw",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Ligne"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "appartientALigne"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdf",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Property"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "mission",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "appartientALigne"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "ligne",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "rerD"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "train",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "mission",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Train"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "ligne",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "rerD"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Ligne"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Circulation"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    }
+  ]
+}

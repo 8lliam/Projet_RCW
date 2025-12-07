@@ -1,0 +1,445 @@
+{
+  "baseIRI": "http://projet-rcw.com/circulation-rer/base/",
+  "namespaces": {
+    "rcw": "http://projet-rcw.com/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "gare": "http://projet-rcw.com/resource/gare/",
+    "ligne": "http://projet-rcw.com/resource/ligne/",
+    "train": "http://projet-rcw.com/resource/circulation/ligne/train/",
+    "ponct": "http://projet-rcw.com/resource/ponctualite/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Train"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Ligne"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Circulation"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Ponctualite"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdfs",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Class"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "appartientALigne"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "ligne",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Nom de la ligne",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "tauxPonctualite"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Taux de ponctualité",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "decimal"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nombreVoyageursALheureLorsVoyageRetard"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Nombre de voyageurs à l'heure pour un voyageur en retard",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "decimal"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "dateAnalysePonctualite"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Date",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "date"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "ponct",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Code Ponctualite",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Ponctualite"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "domain"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "rcw",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Train"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "range"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "rcw",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Ligne"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "rcw",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "appartientALigne"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rdf",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Property"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "ligne"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Ligne",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "service"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Service",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "ligne",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Nom de la ligne",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rcw",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Ligne"
+          }
+        }
+      ]
+    }
+  ]
+}
