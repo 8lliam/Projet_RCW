@@ -1,14 +1,14 @@
 {
-  "baseIRI": "http://projet-rcw.com/circulation-rer/base/",
+  "baseIRI": "http://projet-rcw.com/base/",
   "namespaces": {
     "rcw": "http://projet-rcw.com/ontology/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "circ": "http://projet-rcw.com/resource/circulation/",
     "gare": "http://projet-rcw.com/resource/gare/",
     "train": "http://projet-rcw.com/resource/circulation/ligne/train/",
-    "ligne": "http://projet-rcw.com/resource/ligne/"
+    "ligne": "http://projet-rcw.com/resource/ligne/",
+    "circRerB": "http://projet-rcw.com/resource/circulation/RERB/"
   },
   "subjectMappings": [
     {
@@ -640,15 +640,48 @@
               }
             }
           ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rcw",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "statut"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "statut",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
         }
       ],
       "subject": {
         "transformation": {
-          "expression": "circ",
+          "expression": "circRerB",
           "language": "prefix"
         },
         "valueSource": {
-          "columnName": "code_B",
+          "columnName": "code_rer_B",
           "source": "column"
         }
       },
@@ -858,7 +891,7 @@
               },
               "valueSource": {
                 "source": "constant",
-                "constant": "rerB"
+                "constant": "RERB"
               },
               "valueType": {
                 "propertyMappings": [],
@@ -901,7 +934,7 @@
         },
         "valueSource": {
           "source": "constant",
-          "constant": "rerB"
+          "constant": "RERB"
         }
       },
       "typeMappings": [
