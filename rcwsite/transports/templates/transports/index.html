@@ -27,7 +27,6 @@
     <header class="mb-4 text-center">
       <h1 class="fw-bold">Analyse des retards RER / Transilien</h1>
       <small class="text-warning d-block">Donnees issues du graphe RDF <code>ponctualite.ttl et rerA/B/C/D.ttl</code></small>
-      <p class="text-soft mb-1">Pourcentage de retard moyen par ligne et par annee</p>
     </header>
 
     <h2 class="text-center mb-3">Question 1</h2>
@@ -37,7 +36,7 @@
       <div class="col-12 col-lg-8">
         <div class="card p-3 p-md-4">
           <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="h5 mb-0">Graphique des retards</h2>
+            <h2 class="h5 mb-0"><font color="white">Graphique des retards</font></h2>
             <button id="reloadBtn" class="btn btn-sm btn-outline-light">Rafraichir les donnees</button>
           </div>
 
@@ -45,7 +44,7 @@
 
           <div class="mt-3">
             <small class="text-soft">
-              Chaque point correspond au taux de retard moyen sur une annee.
+              Chaque point correspond au taux de retard moyen sur une annee
             </small>
           </div>
         </div>
@@ -53,7 +52,7 @@
 
       <div class="col-12 col-lg-4">
         <div class="card p-3 p-md-4 mb-3">
-          <h2 class="h6">Filtres et legende</h2>
+          <h2 class="h6"><font color="white">Filtres et legende</font></h2>
           <p class="text-soft small">Clique sur une ligne pour l'afficher ou la masquer.</p>
 
           <div id="lineBadges" class="mb-2"></div>
@@ -64,7 +63,7 @@
     <div class="row g-4 mt-1">
       <div class="col-12">
         <div class="card p-3 p-md-4">
-          <h2 class="h6 mb-2 text-center">Interpretation</h2>
+          <h2 class="h6 mb-2 text-center"> <font color="white">Interpretation</font> </h2>
           <div class="text-soft small interpretation-box">
              Les donnees montrent des niveaux de retard tres variables d'une ligne a l'autre. Certaines lignes presentent une relative stabilite, tandis que d'autres connaissent des fluctuations importantes, indiquant une exploitation plus irreguliere. <br><br>
 
@@ -85,21 +84,22 @@
     <div class="row g-4">
       <div class="col-12">
         <div class="card p-3 p-md-4">
-          <h3 class="h6 mb-2 text-center">Carte des zones les plus impactees</h3>
+          <h3 class="h6 mb-2 text-center"><font color="white">Carte des zones les plus impactees</font></h3>
           <p class="text-soft small text-center mb-3">Top gares (depart) par taux de retard moyen, pour chaque ligne RER A/B/C/D.</p>
           <div id="mapZones" class="geo-map"></div>
           <div class="mt-4">
-            <h4 class="h6 mb-2 text-center">Carte interactive (centres rouges = fortes perturbations)</h4>
+            <h4 class="h6 mb-2 text-center"><font color="white">Carte interactive (centres rouges = fortes perturbations)</font></h4>
             <p class="text-soft small text-center mb-3">Zoomez/dezoomez et bougez la carte. Les cercles rouges sont proportionnels au retard moyen par gare.</p>
             <div id="mapLeaf" class="geo-leaflet"></div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="card p-3 p-md-4">
-      <h2 class="h6 mb-2 text-center">Interpretation</h2>
+          <div class="card p-3 p-md-4">
+      <h2 class="h6 mb-2 text-center"><font color="white">Interpretation</font></h2>
     <div class="text-soft small interpretation-box">
-        
+        L’image présente une sélection représentative des gares emblématiques de chaque ligne du RER (A, B, C et D). Elle ne cherche pas à montrer le réseau complet, mais plutôt à illustrer les zones géographiques majeures desservies par ces lignes : l’ouest pour le RER A, le nord et l’aéroport pour le RER B, Paris et le sud-ouest pour le RER C, ainsi que le nord et le sud-est pour le RER D.
+En résumé, cette présentation sert à donner une vision rapide et simplifiée du rôle et de l’étendue de chaque ligne, en mettant en avant des stations symboliques pour aider à comprendre comment les RER relient Paris à ses différentes banlieues.
+    </div>
     </div>
     </div>
   </div>

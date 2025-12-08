@@ -31,13 +31,21 @@ const SPARQL_QUERY_ZONES = `
 PREFIX rcw:   <http://projet-rcw.com/ontology/>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
-SELECT ?ligne ?labelNorm (SAMPLE(?gareLabel) AS ?gareLabel) (AVG(xsd:decimal(?retardMoyen)) AS ?retardMoyenGare)
+SELECT ?ligne ?labelNorm (SAMPLE(?gareLabel) AS ?gareLabel) (AVG(xsd:decimal(?retardMoyen)) AS ?retardMoyenGare) (SAMPLE(?latVal) AS ?lat) (SAMPLE(?lonVal) AS ?lon)
 WHERE {
   ?circulation a rcw:Circulation ;
                rcw:departDe ?gare ;
                rcw:retardMoyen ?retardMoyen .
   ?gare rdfs:label ?gareLabel .
+
+  OPTIONAL {
+    ?gare geo:lat ?latRaw ;
+          geo:long ?lonRaw .
+    BIND(xsd:decimal(?latRaw) AS ?latVal)
+    BIND(xsd:decimal(?lonRaw) AS ?lonVal)
+  }
 
   BIND(
     IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERA/"), "A",
@@ -441,11 +449,13 @@ function renderLeafletHotspots(bindings) {
   const agg = new Map();
   bindings.forEach((b) => {
     const label = b.gareLabel?.value || b.labelNorm?.value;
-    const norm = b.labelNorm?.value || label;
+    const norm = normalizeLabel(b.labelNorm?.value || label || "");
     const retard = parseFloat(b.retardMoyenGare?.value);
+    const lat = b.lat ? parseFloat(b.lat.value) : NaN;
+    const lon = b.lon ? parseFloat(b.lon.value) : NaN;
     if (!label || !norm || Number.isNaN(retard)) return;
     const current = agg.get(norm);
-    if (!current || retard > current.retard) agg.set(norm, { label, retard });
+    if (!current || retard > current.retard) agg.set(norm, { label, retard, lat, lon });
   });
 
   const points = Array.from(agg.values()).sort((a, b) => b.retard - a.retard);
@@ -456,7 +466,8 @@ function renderLeafletHotspots(bindings) {
   const filtered = points.filter((p) => p.retard >= threshold).slice(0, 80);
 
   filtered.forEach((p) => {
-    const [lat, lng] = pseudoLatLng(p.label);
+    const hasCoords = !Number.isNaN(p.lat) && !Number.isNaN(p.lon);
+    const [lat, lng] = hasCoords ? [p.lat, p.lon] : pseudoLatLng(p.label);
     const ratio = Math.max(0.1, p.retard / max);
     const radius = 10 + ratio * 18;
     const color = `rgba(220,38,38,${0.4 + ratio * 0.4})`;
