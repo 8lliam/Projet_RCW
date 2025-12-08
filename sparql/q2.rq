@@ -1,0 +1,35 @@
+PREFIX rcw:   <http://projet-rcw.com/ontology/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT ?ligne ?labelNorm (SAMPLE(?gareLabel) AS ?gareLabel) (AVG(xsd:decimal(?retardMoyen)) AS ?retardMoyenGare) (SAMPLE(?latVal) AS ?lat) (SAMPLE(?lonVal) AS ?lon)
+WHERE {
+  ?circulation a rcw:Circulation ;
+               rcw:departDe ?gare ;
+               rcw:retardMoyen ?retardMoyen .
+  ?gare rdfs:label ?gareLabel .
+
+  OPTIONAL {
+    ?gare geo:lat ?latRaw ;
+          geo:long ?lonRaw .
+    BIND(xsd:decimal(?latRaw) AS ?latVal)
+    BIND(xsd:decimal(?lonRaw) AS ?lonVal)
+  }
+
+  BIND(
+    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERA/"), "A",
+    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERB/"), "B",
+    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERC/"), "C",
+    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERD/"), "D", "autre")))) AS ?ligne
+  )
+  FILTER(?ligne IN ("A","B","C","D"))
+
+  # Normalisation du label pour fusionner les variantes (ponctuation, accents)
+  BIND(LCASE(REPLACE(STR(?gareLabel), "[^A-Za-z0-9]", " ")) AS ?labelNorm)
+
+  # Filtre anti-valeurs aberrantes (supposées en minutes)
+  FILTER(xsd:decimal(?retardMoyen) >= 0 && xsd:decimal(?retardMoyen) <= 180)
+}
+GROUP BY ?ligne ?labelNorm
+ORDER BY DESC(?retardMoyenGare)
