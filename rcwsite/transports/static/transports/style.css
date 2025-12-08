@@ -1,0 +1,131 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.card {
+  background: #111827;
+  border-radius: 1rem;
+  border: 1px solid #b0b3b8;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.badge-line {
+  margin: 0.2rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #8897bd;
+  border: 1px solid transparent;
+}
+
+.badge-line.active {
+  box-shadow: 0 0 0 2px #0ea5e9;
+}
+
+a,
+a:hover {
+  color: #f97316;
+}
+
+.interpretation-box {
+  background: #0b1224;
+  border: 1px solid #243352;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  line-height: 1.4;
+}
+
+.text-soft {
+  color: #cdd7ff;
+}
+
+.geo-map {
+  background: radial-gradient(circle at 20% 20%, rgba(88,129,248,0.15), transparent 45%),
+              radial-gradient(circle at 80% 30%, rgba(248,113,113,0.15), transparent 40%),
+              #0b1224;
+  border: 1px solid #243352;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.geo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.geo-card {
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid #1f2937;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.geo-card-head {
+  padding: 0.6rem 0.9rem;
+  color: #0b1224;
+  font-weight: 700;
+}
+
+.geo-card-body {
+  padding: 0.85rem 0.9rem 0.75rem;
+}
+
+.geo-row {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.geo-row:last-child {
+  border-bottom: none;
+}
+
+.geo-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  color: #f8fafc;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.geo-name {
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.geo-heatmap {
+  position: relative;
+  min-height: 260px;
+  background: radial-gradient(circle at 30% 25%, rgba(248,113,113,0.15), transparent 40%),
+              radial-gradient(circle at 70% 55%, rgba(94,234,212,0.12), transparent 45%),
+              #0b1224;
+  border: 1px solid #243352;
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+.geo-spot {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.35);
+  opacity: 0.9;
+}
+
+.geo-leaflet {
+  height: 360px;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  border: 1px solid #243352;
+}
