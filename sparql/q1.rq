@@ -1,0 +1,18 @@
+PREFIX rcw:   <http://projet-rcw.com/ontology/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?annee ?codeLigne (AVG(?tauxRetard) AS ?tauxRetardMoyen)
+WHERE {
+  ?mesure a rcw:Ponctualite ;
+          rcw:appartientALigne ?ligne ;
+          rcw:tauxPonctualite ?tauxPonct ;
+          rcw:dateAnalysePonctualite ?date .
+
+  ?ligne rcw:ligne ?codeLigne .
+
+  BIND(100.0 - xsd:decimal(?tauxPonct) AS ?tauxRetard)
+
+  BIND( xsd:integer(SUBSTR(STR(?date), 7, 4)) AS ?annee )
+}
+GROUP BY ?annee ?codeLigne
+ORDER BY ?codeLigne ?annee
