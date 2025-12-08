@@ -1,0 +1,174 @@
+@prefix gare: <http://projet-rcw.com/resource/gare/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+gare:uic87382655 
+geo:lat "49.048330" ;
+geo:long "2.011670" .
+
+gare:uic87386573 
+geo:lat "48.933056" ;
+geo:long "2.040000" .
+
+gare:uic87386409 
+geo:lat "48.920560" ;
+geo:long "2.184440" .
+
+gare:uic87386417 
+geo:lat "48.937500" ;
+geo:long "2.157220" .
+
+gare:uic87386425 
+geo:lat "48.945830" ;
+geo:long "2.144170" .
+
+gare:uic87271007 
+geo:lat "48.881111" ;
+geo:long "2.355278" .
+
+gare:uic87271494 
+geo:lat "49.004711" ;
+geo:long "2.571639" .
+
+gare:uic87271528 
+geo:lat "48.976111" ;
+geo:long "2.641944" .
+
+gare:uic87164798 
+geo:lat "48.917500" ;
+geo:long "2.361670" .
+
+gare:uic87271411 
+geo:lat "48.931940" ;
+geo:long "2.494440" .
+
+gare:uic87271486 
+geo:lat "48.973611" ;
+geo:long "2.514440" .
+
+gare:uic87393843 
+geo:lat "48.785120" ;
+geo:long "2.042010" .
+
+gare:uic87393843 
+geo:lat "49.046111" ;
+geo:long "2.095000" .
+
+gare:uic87276089 
+geo:lat "49.007222" ;
+geo:long "2.197500" .
+
+gare:uic87111278 
+geo:lat "48.894111" ;
+geo:long "2.315000" .
+
+gare:uic87393033 
+geo:lat "48.862826" ;
+geo:long "2.313837" .
+
+gare:uic87393157 
+geo:lat "48.800000" ;
+geo:long "2.129170" .
+
+gare:uic87547000 
+geo:lat "48.799439" ;
+geo:long "2.183330" .
+
+gare:uic87545525 
+geo:lat "48.842222" ;
+geo:long "2.365833" .
+
+gare:uic87545525 
+geo:lat "48.533580" ;
+geo:long "2.009710" .
+
+gare:uic87328328 
+geo:lat "48.829810" ;
+geo:long "2.376820" .
+
+gare:uic87545194 
+geo:lat "48.606390" ;
+geo:long "2.301670" .
+
+gare:uic87546192 
+geo:lat "48.747806" ;
+geo:long "2.371694" .
+
+gare:uic87545137 
+geo:lat "48.436940" ;
+geo:long "2.159440" .
+
+gare:uic87545137 
+geo:lat "48.535560" ;
+geo:long "1.995280" .
+
+gare:uic87393579 
+geo:lat "48.724722" ;
+geo:long "2.258333" .
+
+gare:uic87393322 
+geo:lat "48.839380" ;
+geo:long "2.270670" .
+
+gare:uic87545350 
+geo:lat "48.427500" ;
+geo:long "2.145000" .
+
+gare:uic87393009 
+geo:lat "48.795278" ;
+geo:long "2.135278" .
+
+gare:uic87276055 
+geo:lat "48.980556" ;
+geo:long "2.271667" .
+
+gare:uic87545285 
+geo:lat "48.764194" ;
+geo:long "2.411111" .
+
+gare:uic87681007 
+geo:lat "48.614167" ;
+geo:long "2.473611" .
+
+gare:uic87545244 
+geo:lat "48.689167" ;
+geo:long "2.382778" .
+
+gare:uic87682005 
+geo:lat "48.526083" ;
+geo:long "2.654389" .
+
+gare:uic87682146 
+geo:lat "48.667194" ;
+geo:long "2.547806" .
+
+gare:uic87276246 
+geo:lat "49.023611" ;
+geo:long "2.463111" .
+
+gare:uic87684415 
+geo:lat "48.293306" ;
+geo:long "2.401111" .
+
+gare:uic87164780 
+geo:lat "48.917500" ;
+geo:long "2.350306" .
+
+gare:uic87686006 
+geo:lat "48.844722" ;
+geo:long "2.374722" .
+
+gare:uic87276006 
+geo:lat "49.263889" ;
+geo:long "2.469167" .
+
+gare:uic87276279 
+geo:lat "49.138056" ;
+geo:long "2.490000" .
+
+gare:uic87758607 
+geo:lat "48.861389" ;
+geo:long "2.346669" .
+
+gare:uic87681825 
+geo:lat "48.729722" ;
+geo:long "2.446111" .
