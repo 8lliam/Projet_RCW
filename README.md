@@ -2,6 +2,12 @@
 
 Ce projet est une application web statique présentant un tableau de bord sur la ponctualité des transports en Île-de-France (RER et Transiliens). Il exploite des données issues d'un graphe RDF, préalablement exportées au format JSON pour garantir des performances optimales et un hébergement sans serveur (stateless).
 
+## Sources des données
+
+Les analyses présentées reposent sur les jeux de données ouverts de la SNCF et d'Île-de-France Mobilités, disponibles sur data.gouv.fr :
+- [Régularité mensuelle Transilien](https://www.data.gouv.fr/datasets/regularite-mensuelle-transilien)
+- [Détails des circulations quotidiennes des trains SNCF d'Île-de-France (RER et Transiliens)](https://www.data.gouv.fr/datasets/details-des-circulations-quotidiennes-des-trains-sncf-dile-de-france-rer-et-transiliens)
+
 ## Lancement rapide (Local)
 
 Le projet ne nécessitant aucun backend, il suffit d'un simple serveur HTTP local pour l'exécuter (ce qui évite les blocages de sécurité CORS de votre navigateur lors de la lecture des fichiers JSON).
