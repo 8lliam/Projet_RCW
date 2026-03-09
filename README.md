@@ -1,43 +1,43 @@
-# RCW Site - Tableau de bord IDF
+# RCW Site - Analyse des retards RER / Transilien
 
-Ce projet Django expose le tableau de bord issu du dossier `IDFTransportSite` via l'application `transports`.
+Ce projet est une application web statique présentant un tableau de bord sur la ponctualité des transports en Île-de-France (RER et Transiliens). Il exploite des données issues d'un graphe RDF, préalablement exportées au format JSON pour garantir des performances optimales et un hébergement sans serveur (stateless).
 
-## Prerequis
-- Python 3 et pip installes (`py --version` sous Windows)
-- Un endpoint SPARQL accessible (par defaut `http://localhost:7200/sparql`). Adaptez la constante `SPARQL_ENDPOINT` dans `rcwsite/transports/static/transports/script.js` si besoin.
-- (Optionnel) Un environnement virtuel pour isoler les dependances.
+## Lancement rapide (Local)
 
-## Installation rapide
+Le projet ne nécessitant aucun backend, il suffit d'un simple serveur HTTP local pour l'exécuter (ce qui évite les blocages de sécurité CORS de votre navigateur lors de la lecture des fichiers JSON).
+
+Si vous avez Python installé sur votre machine :
 ```bash
 cd rcwsite
-py -m venv .venv
-.venv\\Scripts\\activate
-pip install django==6.0
+python -m http.server 8000
 ```
 
-## Lancement
-```bash
-cd rcwsite
-py manage.py runserver
-```
-Puis ouvrez `http://127.0.0.1:8000/`.
+Puis ouvrez http://localhost:8000/ dans votre navigateur.
 
-## Structure cle
-- `rcwsite/transports/templates/transports/index.html` : page principale utilisant Bootstrap et Chart.js.
-- `rcwsite/transports/static/transports/style.css` : styles du tableau de bord.
-- `rcwsite/transports/static/transports/script.js` : requete SPARQL, transformation des donnees et generation du graphique et de l'analyse.
+(Alternative : Vous pouvez utiliser l'extension "Live Server" sur VS Code ou n'importe quel autre serveur web statique).
 
-## Question 1
-> Les transports sont-ils de plus en plus fiables au fil des ans ?
+## Structure clé
 
-## Question 2
-> Zones geographiques ou il y a le plus de problemes de transport (RER A/B/C/D)
+- index.html : Page principale du tableau de bord (interface basée sur Bootstrap, graphiques Chart.js et cartes Leaflet).
+- style.css : Feuille de styles du projet.
+- script.js : Logique applicative (récupération des données statiques, transformation et rendu visuel).
+- Static-Data/ : Dossier contenant les "snapshots" des requêtes SPARQL exportées au format JSON (q1.json, q2.json).
 
-- La requete `SPARQL_QUERY_ZONES` agrege les retards moyens par gare et par ligne, de-dup sur un label normalise, et recupere les coordonnees `geo:lat` / `geo:long` si presentes dans les donnees.
-- La carte Leaflet (Question 2) utilise ces coordonnees. Si elles sont absentes, un fallback pseudo-position est applique. Pour un positionnement correct, charger des TTL avec `geo:lat` et `geo:long` sur chaque ressource `gare:...`.
-- Le proxy `/api/sparql` doit pointer vers le repository GraphDB qui contient ces donnees (mettre a jour `SPARQL_ENDPOINT` dans `views.py` si besoin).
+## Axes d'analyse
+**Question 1 : Évolution de la fiabilité**
+> Les transports sont-ils de plus en plus fiables au fil des ans ? 
+> Le graphique trace l'évolution du taux de retard moyen par année et par ligne pour dégager des tendances à long terme.
 
-## Chargement des donnees (exemple GraphDB)
-1. Importer les TTL (ponctualite + rerA/B/C/D + TTL des gares avec geo:lat/geo:long) dans le repository (ex: `idftransport`).
-2. Verifier que le SPARQL endpoint repond: `http://localhost:7200/repositories/idftransport?query=ASK%20%7B%7D`.
-3. Si vous changez d'URL ou de repo, ajustez `SPARQL_ENDPOINT` dans `rcwsite/transports/views.py` (proxy) ou dans `script.js` si vous bypasser le proxy.
+**Question 2 : Zones géographiques critiques (RER A/B/C/D)**
+> Quelles sont les zones où il y a le plus de problèmes de transport ?
+> Les cartes (heatmaps et points Leaflet interactifs) utilisent les coordonnées spatiales (geo:lat / geo:long) des gares pour visualiser les hotspots de retard. Si les coordonnées précises sont absentes des données RDF, un algorithme de positionnement alternatif (pseudo-position) répartit les points géographiquement.
+
+## Mise à jour des données (Workflow)
+
+L'architecture étant "stateless", le site n'interroge pas la base de données en direct. Pour mettre à jour les visualisations ou ajouter de nouvelles requêtes SPARQL :
+
+1. Démarrez votre instance GraphDB locale contenant vos données RDF (ponctualite.ttl, rerA/B/C/D.ttl, etc.).
+2. Exécutez votre requête SPARQL directement dans l'interface web de GraphDB.
+3. Exportez les résultats de la requête au format JSON.
+4. Enregistrez ce fichier dans le répertoire Static-Data/ de ce projet.
+5. Dans script.js, utilisez l'API fetch() pour pointer vers ce nouveau fichier local.

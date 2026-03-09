@@ -1,0 +1,1616 @@
+{
+  "head" : {
+    "vars" : [
+      "ligne",
+      "labelNorm",
+      "gareLabel",
+      "retardMoyenGare",
+      "lat",
+      "lon"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "parc des expositions"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Parc des Expositions"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "79.583333333333333333333333"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.973611"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.514440"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "villeneuve st georges"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Villeneuve St-Georges"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "67"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.729722"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.446111"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "chaville   v lizy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Chaville - Vélizy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "59.543396226415094339622642"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "chaville v lizy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Chaville Vélizy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "59.543396226415094339622642"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "ch telet les halles"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Châtelet-les-Halles"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "53.180327868852459016393443"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.861389"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.346669"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "combs la ville   quincy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Combs-la-Ville - Quincy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "50.664122137404580152671756"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.667194"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.547806"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "combs la ville quincy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Combs la Ville Quincy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "50.664122137404580152671756"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.667194"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.547806"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "mitry   claye"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Mitry - Claye"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.718675352877307274701412"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.976111"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.641944"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "mitry claye"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Mitry Claye"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.718675352877307274701412"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.976111"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.641944"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "paris austerlitz"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Paris Austerlitz"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.382215765731325024848995"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.799439"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.183330"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "paris nord"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Paris Nord"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.202060301507537688442211"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.881111"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.355278"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "biblioth que fran ois mitterrand"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Bibliothèque François Mitterrand"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "47.707156308851224105461394"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.829810"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.376820"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "choisy le roi"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Choisy-le-Roi"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "46.689655172413793103448276"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.764194"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.411111"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "versailles chantiers"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Versailles Chantiers"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "46.249844752639205133512730"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.795278"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.135278"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "villiers le bel   gonesse   arnouville"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Villiers-le-Bel - Gonesse - Arnouville"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "46.170119109269808389435526"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "br tigny"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Brétigny"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "45.840304182509505703422053"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.606390"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.301670"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : " tampes"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Étampes"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "45.775757575757575757575758"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.535560"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.159440"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "dourdan"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Dourdan"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "44.954596728708403835307389"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.533580"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.009710"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "montigny   beauchamp"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Montigny - Beauchamp"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "44.554488888888888888888889"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.007222"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.197500"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "montigny beauchamp"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Montigny Beauchamp"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "44.554488888888888888888889"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.007222"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.197500"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "houilles   carri res sur seine"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Houilles - Carrières-sur-Seine"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "43.719767632138766159384716"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.920560"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.184440"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "houilles carri res sur seine"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Houilles Carrières sur Seine"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "43.719767632138766159384716"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.920560"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.184440"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "roissy a roport cdg 2 rer"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Roissy Aéroport CDG 2 RER"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "43.630140885157250604810019"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.004711"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.571639"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "pontoise"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Pontoise"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "43.397919876733436055469954"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "goussainville"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Goussainville"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "43.095317472344294590089407"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.023611"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.463111"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "la plaine stade de france"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "La Plaine Stade de France"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "42.398190045248868778280543"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.917500"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.361670"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "juvisy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Juvisy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "42.020977011494252873563218"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.689167"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.382778"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "massy   palaiseau"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Massy - Palaiseau"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "41.890917944971999026053080"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.724722"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.258333"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "massy palaiseau"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Massy Palaiseau"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "41.890917944971999026053080"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.724722"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.258333"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "stade de france saint denis"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Stade de France Saint-Denis"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "41.143884892086330935251799"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.917500"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.350306"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "pont de rungis a roport d orly"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Pont de Rungis Aéroport d'Orly"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "40.597399735566328779197885"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.747806"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.371694"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "pont de rungis"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Pont de Rungis"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "40.597399735566328779197885"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.747806"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.371694"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "melun"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Melun"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "40.116224711856210203917144"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.526083"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.654389"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "st martin d  tampes"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "St-Martin d'Étampes"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "39.446230158730158730158730"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.427500"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.145000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "aulnay sous bois"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Aulnay-sous-Bois"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "38.321663019693654266958425"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.931940"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.494440"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "versailles ch teau rive gauche"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Versailles Château Rive Gauche"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "37.933489565896663318826024"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.800000"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.129170"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "versailles ch teau"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Versailles Château"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "37.933489565896663318826024"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.800000"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.129170"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "orry la ville   coye"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Orry-la-Ville - Coye"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "37.837460603331832507879334"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.138056"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.490000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "orry la ville coye"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Orry la Ville Coye"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "37.837460603331832507879334"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.138056"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.490000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "creil"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Creil"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "37.789240972733971997052321"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.263889"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.469167"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "invalides"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Invalides"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "36.112107023411371237458194"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.862826"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.313837"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "paris nord"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Paris Nord"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "35.234290843806104129263914"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.881111"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.355278"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "ermont   eaubonne"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Ermont - Eaubonne"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "33.176165803108808290155440"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.980556"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.271667"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "corbeil essonnes"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Corbeil-Essonnes"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "32.964696412143514259429623"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.614167"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.473611"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "dourdan la for t"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Dourdan la Forêt"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "32.736588306208559373116335"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "paris gare de lyon"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Paris Gare de Lyon"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "32.325851393188854489164087"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.844722"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.374722"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "poissy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Poissy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "31.785590110102375893374541"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.933056"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.040000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "cergy le haut"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Cergy le Haut"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "30.069308074390666512648724"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "49.048330"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.011670"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "st quentin en yvelines"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "St-Quentin en Yvelines"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "29.885897664467819575681940"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.785120"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.095000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "porte de clichy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Porte de Clichy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "28.970673425054308472121651"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.894111"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.315000"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "juvisy"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Juvisy"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "24.177291114520853675547496"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.689167"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.382778"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "malesherbes"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Malesherbes"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "23.514432155381710277852711"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.293306"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.401111"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "pont du garigliano"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Pont du Garigliano"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "22.213932806324110671936759"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.839380"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.270670"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "sartrouville"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Sartrouville"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "17.290076335877862595419847"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.937500"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.157220"
+        }
+      },
+      {
+        "ligne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "labelNorm" : {
+          "type" : "literal",
+          "value" : "maisons laffitte"
+        },
+        "gareLabel" : {
+          "xml:lang" : "fr",
+          "type" : "literal",
+          "value" : "Maisons Laffitte"
+        },
+        "retardMoyenGare" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.123263888888888888888889"
+        },
+        "lat" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "48.945830"
+        },
+        "lon" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "2.144170"
+        }
+      }
+    ]
+  }
+}

@@ -1,103 +1,34 @@
 /********************************************************************
- * 1. Parametres du SPARQL endpoint
- ********************************************************************/
-const SPARQL_ENDPOINT = "/api/sparql"; // Proxy Django pour eviter CORS
-
-const SPARQL_QUERY = `
-PREFIX rcw:   <http://projet-rcw.com/ontology/>
-PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
-
-SELECT ?annee ?codeLigne (AVG(?tauxRetard) AS ?tauxRetardMoyen)
-WHERE {
-  ?mesure a rcw:Ponctualite ;
-          rcw:appartientALigne ?ligne ;
-          rcw:tauxPonctualite ?tauxPonct ;
-          rcw:dateAnalysePonctualite ?date .
-
-  ?ligne rcw:ligne ?codeLigne .
-
-  BIND(100.0 - xsd:decimal(?tauxPonct) AS ?tauxRetard)
-
-  BIND( xsd:integer(SUBSTR(STR(?date), 7, 4)) AS ?annee )
-}
-GROUP BY ?annee ?codeLigne
-ORDER BY ?codeLigne ?annee
-`;
-
-/********************************************************************
- * 1.b SPARQL pour les zones RER A/B/C/D
- ********************************************************************/
-const SPARQL_QUERY_ZONES = `
-PREFIX rcw:   <http://projet-rcw.com/ontology/>
-PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#>
-
-SELECT ?ligne ?labelNorm (SAMPLE(?gareLabel) AS ?gareLabel) (AVG(xsd:decimal(?retardMoyen)) AS ?retardMoyenGare) (SAMPLE(?latVal) AS ?lat) (SAMPLE(?lonVal) AS ?lon)
-WHERE {
-  ?circulation a rcw:Circulation ;
-               rcw:departDe ?gare ;
-               rcw:retardMoyen ?retardMoyen .
-  ?gare rdfs:label ?gareLabel .
-
-  OPTIONAL {
-    ?gare geo:lat ?latRaw ;
-          geo:long ?lonRaw .
-    BIND(xsd:decimal(?latRaw) AS ?latVal)
-    BIND(xsd:decimal(?lonRaw) AS ?lonVal)
-  }
-
-  BIND(
-    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERA/"), "A",
-    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERB/"), "B",
-    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERC/"), "C",
-    IF(STRSTARTS(STR(?circulation), "http://projet-rcw.com/resource/circulation/RERD/"), "D", "autre")))) AS ?ligne
-  )
-  FILTER(?ligne IN ("A","B","C","D"))
-
-  # Normalisation du label pour fusionner les variantes (ponctuation, accents)
-  BIND(LCASE(REPLACE(STR(?gareLabel), "[^A-Za-z0-9]", " ")) AS ?labelNorm)
-
-  # Filtre anti-valeurs aberrantes (supposées en minutes)
-  FILTER(xsd:decimal(?retardMoyen) >= 0 && xsd:decimal(?retardMoyen) <= 180)
-}
-GROUP BY ?ligne ?labelNorm
-ORDER BY DESC(?retardMoyenGare)
-`;
-
-/********************************************************************
- * 2. Fetch SPARQL
+ * 1. Fetch JSON Statique
  ********************************************************************/
 async function fetchSparqlData() {
-  const url = SPARQL_ENDPOINT + "?query=" + encodeURIComponent(SPARQL_QUERY);
+  const url = "./Static-Data/q1.json";
 
-  const response = await fetch(url, {
-    headers: { Accept: "application/sparql-results+json" },
-  });
+  const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error("Erreur SPARQL: " + response.status);
+    throw new Error("Erreur de chargement: " + response.status);
   }
 
+  // On renvoie la structure exacte attendue par la suite du script
   return (await response.json()).results.bindings;
 }
 
 async function fetchZonesData() {
-  const url = SPARQL_ENDPOINT + "?query=" + encodeURIComponent(SPARQL_QUERY_ZONES);
+  const url = "./Static-Data/q2.json";
 
-  const response = await fetch(url, {
-    headers: { Accept: "application/sparql-results+json" },
-  });
+  const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error("Erreur SPARQL zones: " + response.status);
+    throw new Error("Erreur de chargement zones: " + response.status);
   }
 
+  // On renvoie la structure exacte attendue par la suite du script
   return (await response.json()).results.bindings;
 }
 
 /********************************************************************
- * 3. Transformer les donnees pour Chart.js
+ * 2. Transformer les donnees pour Chart.js
  ********************************************************************/
 function transformData(bindings) {
   const yearsSet = new Set();
@@ -148,7 +79,7 @@ for (const [line, yearMap] of linesMap.entries()) {
 }
 
 /********************************************************************
- * 4. Chart.js
+ * 3. Chart.js
  ********************************************************************/
 let retardChart = null;
 
@@ -180,7 +111,7 @@ function renderChart(years, datasets) {
 }
 
 /********************************************************************
- * 5. Analyse narrative + reponse a la question 1
+ * 4. Analyse narrative + reponse a la question 1
  ********************************************************************/
 function generateAnalysis(lineStats) {
   const question1Answer = document.getElementById("question1Answer");
@@ -238,7 +169,7 @@ function generateAnalysis(lineStats) {
 }
 
 /********************************************************************
- * 6. Legende cliquable
+ * 5. Legende cliquable
  ********************************************************************/
 function normalizeLabel(label = "") {
   return label
@@ -292,7 +223,7 @@ function renderLegend(lineStats) {
 }
 
 /********************************************************************
- * 7. Carte des zones impactees (RER A/B/C/D)
+ * 6. Carte des zones impactees (RER A/B/C/D)
  ********************************************************************/
 function renderZonesMap(bindings) {
   const container = document.getElementById("mapZones");
@@ -359,7 +290,7 @@ function renderZonesMap(bindings) {
 }
 
 /********************************************************************
- * 8. Heatmap simplifiee des hotspots
+ * 7. Heatmap simplifiee des hotspots
  ********************************************************************/
 function pseudoPosition(label = "") {
   let h = 0;
@@ -415,7 +346,7 @@ function renderHotspots(bindings) {
 }
 
 /********************************************************************
- * 9. Carte Leaflet (interactive) des hotspots
+ * 8. Carte Leaflet (interactive) des hotspots
  ********************************************************************/
 let leafletMap = null;
 
@@ -484,7 +415,7 @@ function renderLeafletHotspots(bindings) {
 }
 
 /********************************************************************
- * 10. Initialisation
+ * 9. Initialisation
  ********************************************************************/
 async function init() {
   const btn = document.getElementById("reloadBtn");
@@ -505,7 +436,7 @@ async function init() {
     renderHotspots(zones);
     renderLeafletHotspots(zones);
   } catch (err) {
-    alert("Erreur SPARQL : " + err.message);
+    alert("Erreur de chargement des donnees : " + err.message);
   }
 
   btn.disabled = false;

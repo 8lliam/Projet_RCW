@@ -1,0 +1,2717 @@
+{
+  "head" : {
+    "vars" : [
+      "annee",
+      "codeLigne",
+      "tauxRetardMoyen"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.041666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "22.958333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "28.077166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "28.25"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "27.234833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "18.168333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.836272727272727272727273"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.294777777777777777777778"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.77175"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.168"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.275916666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.221666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "A"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.473"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.891666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.981818181818181818181818"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.696083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.1425"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.935083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.370833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "15.268636363636363636363636"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.910888888888888888888889"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.3015"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "17.300416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "17.02925"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.1555"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "B"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.332222222222222222222222"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.841666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.405416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.412083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.45"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.901166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.725"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.129545454545454545454545"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.124222222222222222222222"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.598416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.8995"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.59275"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.339416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "C"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.360222222222222222222222"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "17.275"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.52675"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.597"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.933333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "15.21775"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "15.875"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.243909090909090909090909"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.566666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.95875"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.436166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.648166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.522416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "D"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.846222222222222222222222"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.433333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.627916666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.135"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.783333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.755"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.708333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.448545454545454545454545"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.122555555555555555555556"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.69125"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.591833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.373"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.2215"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "E"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.730555555555555555555556"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.775"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.804333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.17375"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.233333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.020333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.05"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.914"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.401888888888888888888889"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.532583333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.6915"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.110583333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.515666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "H"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.016555555555555555555556"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.325"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.435333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.790833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.45"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.75775"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.908333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.577454545454545454545455"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.816888888888888888888889"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.909"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.114333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.248833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.216"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "J"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.307333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "19.641666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.910583333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.166416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.425"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.478916666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.583333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.506272727272727272727273"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.247888888888888888888889"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.59625"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.164916666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.488083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.026583333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "K"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.364666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "15.833333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.965833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.578"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.408333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.59025"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.183333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.899727272727272727272727"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.676777777777777777777778"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.27425"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.179166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.747"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.26225"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "L"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.679444444444444444444444"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.275"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.879166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.803833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.083333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.30375"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.316666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.831909090909090909090909"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.631111111111111111111111"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.329916666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.402833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.076833333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.023166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "N"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.602333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.0"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.91"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.621083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.8"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.699083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.833333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.049545454545454545454545"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.606333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.317666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.609416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.776666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.2895"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "P"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.794111111111111111111111"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.95"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.252"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "12.375166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "13.266666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.613416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "16.275"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "14.156636363636363636363636"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.818333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.732333333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "9.8095"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "10.617"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.576083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "R"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "11.106111111111111111111111"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2013"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.925"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2014"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.478083333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2015"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.695416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2016"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.9"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2017"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "7.03625"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2018"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "8.6"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2019"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.855727272727272727272727"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2020"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "3.481111111111111111111111"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2021"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.180666666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2022"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "23.602166666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2023"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "4.889416666666666666666667"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2024"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "5.041583333333333333333333"
+        }
+      },
+      {
+        "annee" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2025"
+        },
+        "codeLigne" : {
+          "type" : "literal",
+          "value" : "U"
+        },
+        "tauxRetardMoyen" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "6.745444444444444444444444"
+        }
+      }
+    ]
+  }
+}
